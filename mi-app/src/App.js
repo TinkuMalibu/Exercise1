@@ -4,7 +4,10 @@ import Testimonio from './componentes/Testimonio.jsx';
 function App() {
   return (
     <div className="App">
-      <Testimonio/>
+      <div className='contenedor-principal'>
+        <h1>This is what our cute catpreneurs say</h1>
+        <Testimonio/>
+      </div>
     </div>
   );
 }

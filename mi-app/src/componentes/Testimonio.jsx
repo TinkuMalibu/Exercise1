@@ -1,4 +1,5 @@
 import React from 'react';
+import '../stylesheets/Testimonio.css';
 
   function Testimonio() {
    return (
@@ -8,9 +9,9 @@ import React from 'react';
         src={require('../imagenes/cat1.png')}
         alt='foto de un gatito cute'/>
       <div className="contenedor-texto-testimonio">
-        <p className='nombre-testimonio'>Gatito 1</p>
-        <p className='cargo-testimonio'>Emprendedor en "Los gatitos de tu abuela"</p>
-        <p className='texto-testimonio'>He sido preparado toda mi vida para emprender</p>
+        <p className='nombre-testimonio'>Miu Miu</p>
+        <p className='cargo-testimonio'>Entrepreneur in My HUMAN TOYS</p>
+        <p className='texto-testimonio'>In the quiet neighborhood of Catville, I set out to chase a bold dream: to become the owner of the best cat toy store! With my endearing gaze and a persuasive meow, I convinced my fellow feline friends to buy my exclusive toys. My business grew rapidly, opening branches all over the place. Cats went crazy for my quality products and unique designs. Not only did I triumph as a feline entrepreneur, but I also became an inspiration for other catpreneurs. My toy empire became a global success, and I'm purring with happiness!</p>
       </div>
     </div>
    );
