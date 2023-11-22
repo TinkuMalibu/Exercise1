@@ -9,9 +9,15 @@ import '../stylesheets/Testimonio.css';
         src={require(`../imagenes/cat-${props.imagen}.png`)}
         alt='foto de un gatito cute'/>
       <div className="contenedor-texto-testimonio">
-        <p className='nombre-testimonio'>{props.nombre} from {props.pais}</p>
-        <p className='cargo-testimonio'>{props.cargo} in {props.empresa}</p>
-        <p className='texto-testimonio'>"{props.testimonio}"</p>
+        <p className='nombre-testimonio'>
+          <strong>{props.nombre}</strong> from {props.pais}
+        </p>
+        <p className='cargo-testimonio'>
+          <strong>{props.cargo}</strong> in {props.empresa}
+        </p>
+        <p className='texto-testimonio'>
+          "{props.testimonio}"
+        </p>
       </div>
     </div>
    );

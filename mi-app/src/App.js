@@ -17,7 +17,7 @@ function App() {
         nombre='Little Cat Jey'
         imagen='1'
         pais='Ireland'
-        cargo='CEO at Have dinner with cats'
+        cargo='CEO'
         empresa='The Cat good Meal'
         testimonio='In the bustling neighborhood of Purrington, whiskered entrepreneur Whiskers decided to pursue a culinary dream: owning the finest cat-friendly restaurant in town! With a flair for flavor and a charismatic purr-suasion, Whiskers convinced fellow felines to dine at his establishment. Soon, the restaurant gained a loyal following, expanding to other corners of the city. Cats flocked to savor the gourmet dishes crafted with love and care. Whiskers not only mastered the art of feline gastronomy but also became a symbol of culinary success, inspiring aspiring cat chefs everywhere. His restaurant became a global sensation, and Whiskers purred contentedly at the success of his whisker-licking venture!'
         />
