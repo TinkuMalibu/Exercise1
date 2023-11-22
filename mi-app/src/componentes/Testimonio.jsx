@@ -1,13 +1,14 @@
-import React from 'react';
+
 import '../stylesheets/Testimonio.css';
 
   function Testimonio(props) {
+    const altText= `Foto de ${props.nombre} from ${props.pais}`;
    return (
     <div className= 'contenedor-testimonio'>
       <img
         className='imagen-testimonio'
         src={require(`../imagenes/cat-${props.imagen}.png`)}
-        alt='foto de un gatito cute'/>
+        alt= {altText} />
       <div className="contenedor-texto-testimonio">
         <p className='nombre-testimonio'>
           <strong>{props.nombre}</strong> from {props.pais}
