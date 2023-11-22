@@ -13,7 +13,7 @@ import '../stylesheets/Testimonio.css';
           <strong>{props.nombre}</strong> from {props.pais}
         </p>
         <p className='cargo-testimonio'>
-          <strong>{props.cargo}</strong> in {props.empresa}
+          {props.cargo} in <strong>{props.empresa}</strong>
         </p>
         <p className='texto-testimonio'>
           "{props.testimonio}"

@@ -16,7 +16,9 @@
     font-family: lato, sans-serif;
     font-size: 700;
     line-height: 1.1;
-    margin: 40px 0;
+    margin: 40px 0px;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 
   .App {
